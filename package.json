@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "name": "e-shop",
+  "description": "Ecommerce shopping application for React and Node JS learning",
+  "version": "1.0.0",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnty01/e-shop.git"
+  },
+  "author": "vibhu sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johnty01/e-shop/issues"
+  },
+  "homepage": "https://github.com/Johnty01/e-shop#readme"
+}
