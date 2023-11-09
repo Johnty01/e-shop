@@ -10,9 +10,9 @@ const connectDatabase = ()=>{
         .then((data)=>{
             console.log(`mongodb connected with server ${data.connection.host}`)
         })
-        .catch((err)=>{
-            console.log(err)
-        })
+        // .catch((err)=>{
+        //     console.log(err)
+        // }) // no need now, handled in server.js
 }
 
 module.exports = connectDatabase
